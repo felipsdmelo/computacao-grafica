@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Modelagem Hierárquica - Felipe Melo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <canvas id="theCanvas" width="850" height="600">
+            Please use a browser that supports "canvas"
+        </canvas>
+
+        <p>Keyboard controls:</p>
+
+        <ul>
+            <li>(b, B) - Body rotation</li>
+            <li>(t, T) - Torso rotation</li>
+            <li>(s, S) - Shoulder rotation</li>
+            <li>(a, A) - Arm rotation</li>
+            <li>(h, H) - Hand rotation</li>
+            <li>(l, L) - Head rotation</li>
+            <li>(m, M) - Leg rotation</li>
+            <li>Space - Enable Arcball</li>
+        </ul>
+
+        <script src="./lib/cuon-matrix.js"></script>
+        <script src="./lib/cuon-utils.js"></script>
+        <script src="./lib/simple-rotator.js"></script>
+        <script src="./lib/webgl-utils.js"></script>
+        <script src="./lib/webgl-debug.js"></script>
+        <script src="robo.js"></script>
+    </body>
+</html>
